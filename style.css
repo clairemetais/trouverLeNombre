@@ -1,0 +1,96 @@
+.container{
+    width:1000px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   color:azure;
+}
+p,label,#fin{
+    font-family: 'Major Mono Display', monospace;
+    font-size:20px;
+}
+p{
+    text-align: center;
+    padding-bottom:30px;
+    line-height: 30px;
+}
+#chiffreSaisi{
+    font-family: 'Major Mono Display', monospace;
+    font-size:16px; 
+}
+#resultat{
+   font-family: 'Bungee Spice', cursive; 
+}
+
+.title_layout{
+font-family: 'Bungee Spice', cursive;
+font-size:42px;
+}
+
+.level_layout{
+    display: flex;
+    width:600px;
+    justify-content: center;
+    padding:30px;
+    font-family: 'Major Mono Display', monospace;
+    
+}
+
+.bg_image{
+    background: url("img/cyber-security-g2c83916cf_1280.jpg");
+    background-position: no-repeat;
+    background-size: cover;
+}
+
+button{
+    border-radius: 5px;
+    height:50px;
+    width:120px;
+    border: none;
+    margin-right:30px;  
+}
+#facile{
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(226, 179, 24);
+}
+#facile:hover{
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(224, 227, 53);
+}
+#moyen{
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(226, 128, 24);
+   
+}
+#moyen:hover{
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #ff8300 ;
+}
+#difficile{
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(197, 62, 25);
+    
+}
+#difficile:hover{
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #f00000;
+}
+#analyse{
+    display:flex;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;
+    color:blue;
+    box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-size: 42px;
+}
+.jeu{
+    margin-bottom:30px;
+}
+input{
+    border-radius: 5px;
+    line-height: 25px;
+    
+}

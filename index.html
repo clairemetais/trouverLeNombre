@@ -1,0 +1,63 @@
+<!-- Vous allez créer un jeu qui permettra de deviner un nombre aléatoire.
+
+
+----limiter le nombre de tentatives ( grace au counter)  X
+indiquer si le nombre proposé est trop haut ou trop bas en utilisant les comparatifs <> X
+afficher un gros “c’est gagné” ou “c’est perdu” utilisation d'id et de span X
+faire un décompte X
+mettre un niveau (facile, moyen, difficile)
+avoir une zone qui historise les différentes propositions effectuées-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+  </style> 
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Document</title>
+</head>
+
+<body class="bg_image">
+  <!-- titre du jeu -->
+  <div class="container">
+  <h1 class="title_layout">Devine le nombre</h1>
+  <!-- regle du jeu -->
+  <p>
+    Tu dois deviner le nombre qui sera generé aleatoirement par l'ordinateur
+  </p>
+
+  <form action="#" onSubmit="return false" >
+      <label for="level">Choisissez votre niveau de difficulté</label><br> 
+    <div class="level_layout">
+      <button id="facile">Je m'echauffe d'abord</button><br>
+      <div id="instructionFacile"></div>
+      <button id="moyen">Je suis à l'aise</button><br>
+      <div id="instructionMoyen"></div>
+      <button id="difficile">J'aime les defis</button><br>
+      <div id="instructionDifficile"></div>
+    </div>
+    <div class="jeu">
+      <label for="nb">Inscrivez votre nombre:</label>
+      <input type="number" name="nb" id="nb" />
+    </div>
+      <button id="analyse">?</button>
+      <span id="chiffreSaisi"></span>
+    
+  </form>
+  <div id="resultat"></div>
+  <div id="fin"></div>
+</div>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
+<!-- // La Math.floor()fonction arrondit toujours vers le bas et renvoie le plus grand nombre entier inférieur ou égal à un nombre donné. -->
+<!-- .textcontent ou inner.html? -->
